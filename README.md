@@ -3,7 +3,7 @@ Ride Sharing Platform
 
 Design Considerations:
 
-I designed the architecture in a way that respects the Microservice value of being independent and loosely coupled. When analysing the business requirements, three different domains come out : Driver , Passenger and Trip. Passenger and Driver are standalone MS to create and update accounts while Trip MS is the middleman as it requires information from both ends to function. In the real application, it is planned to have two UIs for the respective Passenger and Driver. Each MS would have it's own REST API for communication and have it's own Databases.
+I designed the architecture in a way that respects the Microservice value of being independent and loosely coupled. When analysing the business requirements, three different domains come out : Driver , Passenger and Trip. Passenger and Driver are standalone MS to create and update accounts while Trip MS is the middleman as it requires information from both ends to function. In the real application, it is planned to have two UIs for the respective Passenger and Driver. There would be three MS: Passenger, Driver & Trip , and Each MS would have it's own REST API for communication and have it's own Databases.
 
 
 
